@@ -17,4 +17,4 @@ The `get()` method sends a GET request to the specified URL. It is used to retri
 
 ## What is exceptions.ConnectionError? ##
 
-In the event of a network problem (e.g. DNS failure, refused connection, etc.), requests will raise a `ConnectionError` exception.
+In the event of a network problem (e.g., DNS failure, refused connection, etc.), requests will raise a `ConnectionError` exception.
