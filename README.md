@@ -4,7 +4,7 @@ It is a tool designed to brute force directories and file names on web and appli
 
 ## Usage ##
 
-```python3 dirscanner```
+```python3 dirscanner.py```
 
 - provide IP
 - provide directory list
