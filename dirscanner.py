@@ -15,4 +15,4 @@ for line in file:
 	full_url = target_url + '/' + directory
 	response = request(full_url)
 	if response:
-		print('[*] Discovered Directory: ' + full_url)
+		print('[*] Discovered Directory: ' + full_url) 
