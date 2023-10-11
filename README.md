@@ -8,7 +8,7 @@ Key Features:
 - Utilize a list of directories for testing
 - Efficiently discover accessible directories and potential file paths
 
-Please note that this tool is intended for ethical and responsible use, such as website security assessments, and should not be used for any unauthorized or malicious activities
+Please note that this tool is intended for ethical and responsible use, such as website security assessments, and should not be used for any unauthorized or malicious activities.
 
 ## Usage ##
 
