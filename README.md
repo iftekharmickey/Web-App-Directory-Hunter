@@ -1,4 +1,4 @@
-# WebAppDirectoryHunter #
+# Web-App-Directory-Hunter #
 
 This Python tool is designed to facilitate the enumeration of directories and files on web and application servers. It allows users to input a target URL and a list of directories, after which the tool systematically attempts to access these directories using HTTP requests. While not a comprehensive iterative search, it provides a basic directory and file name enumeration method for initial web application assessment.
 
