@@ -14,5 +14,5 @@ Please note that this tool is intended for ethical and responsible use, such as 
 
 ```python3 dirscanner.py```
 
-- Target URL Input: Enter the target URL to be probed for directories.
-- Directory List Input: Provide a list containing directory names for execution.
+- Target URL Input: Enter the target URL to be probed for directories
+- Directory List Input: Provide a list containing directory names for execution
