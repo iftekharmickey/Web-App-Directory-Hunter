@@ -12,7 +12,7 @@ To use this tool, follow these steps:
    ```bash
    git clone https://github.com/your-username/directory-enumeration-tool.git
    ````
-2. Install the required dependencies. You can use **pip** to install the **requests** library:
+2. Install the required dependencies. You can use `pip` to install the **requests** library:
    ```bash
    pip install requests
    ```
