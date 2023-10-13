@@ -31,3 +31,23 @@ To use this tool, follow these steps:
 [*] Discovered Directory: https://example.com/directory2
 [*] Discovered Directory: https://example.com/directory3
 ```
+
+### Dependencies
+
+This script relies on the following external Python library:
+
+- [requests](https://pypi.org/project/requests/): Used for sending HTTP GET requests to the target URL.
+
+### Legal and Ethical Considerations
+
+- This script is provided for educational purposes only. Using it for unauthorized access to any system is illegal and unethical.
+- Ensure that you have explicit permission to test the security of the target website.
+- Always adhere to applicable laws, regulations, and ethical guidelines.
+
+### Disclaimer
+
+The author of this script is not responsible for any illegal or unethical use of the script. Use it responsibly and with permission.
+
+### Author
+
+This tool was developed by Iftekhar Tahir. If you have any questions or feedback, feel free to contact me at iftekhar.tahir@proton.me.
