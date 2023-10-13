@@ -9,22 +9,22 @@ This Python script is a simple directory enumeration tool that checks a target U
 To use this tool, follow these steps:
 
 1. Clone the repository to your local machine:
-   bash```
+   ```bash
    git clone https://github.com/your-username/directory-enumeration-tool.git
    ````
 2. Install the required dependencies. You can use **pip** to install the **requests** library:
-   bash```
+   ```bash
    pip install requests
    ```
 3. Run the script with the following command, replacing [target_url] and [list_file] with your target URL and the file containing the list of directories to check:
-   bash```
+   ```bash
    python directory_enum.py
    ```
 4. The script will iterate through the directories in the list and check if they exist on the target URL. If a directory is found, it will be displayed in the console.
 
 ### Example
 
-bash```
+```bash
 [*] Enter Target URL: https://example.com
 [*] Enter List Containing Directories: directories.txt
 [*] Discovered Directory: https://example.com/directory1
