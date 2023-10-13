@@ -1,18 +1,33 @@
-# Web-App-Directory-Hunter #
+# Web-App-Directory-Hunter
 
-This Python tool is designed to facilitate the enumeration of directories and files on web and application servers. It allows users to input a target URL and a list of directories, after which the tool systematically attempts to access these directories using HTTP requests. While not a comprehensive iterative search, it provides a basic directory and file name enumeration method for initial web application assessment.
+## Overview
 
-Key Features:
+This Python script is a simple directory enumeration tool that checks a target URL for the existence of directories specified in a list. It uses the requests library to send HTTP GET requests to the target URL with each directory appended, and then checks the response. If a valid response is received, it is considered a "discovered directory."
 
-- Input a target URL for directory enumeration
-- Utilize a list of directories for testing
-- Efficiently discover accessible directories and potential file paths
+### Usage
 
-Please note that this tool is intended for ethical and responsible use, such as website security assessments, and should not be used for any unauthorized or malicious activities.
+To use this tool, follow these steps:
 
-## Usage ##
+1. Clone the repository to your local machine:
+   bash```
+   git clone https://github.com/your-username/directory-enumeration-tool.git
+   ````
+2. Install the required dependencies. You can use **pip** to install the **requests** library:
+   bash```
+   pip install requests
+   ```
+3. Run the script with the following command, replacing [target_url] and [list_file] with your target URL and the file containing the list of directories to check:
+   bash```
+   python directory_enum.py
+   ```
+4. The script will iterate through the directories in the list and check if they exist on the target URL. If a directory is found, it will be displayed in the console.
 
-```python3 dirscanner.py```
+### Example
 
-- Target URL Input: Enter the target URL to be probed for directories
-- Directory List Input: Provide a list containing directory names for execution
+bash```
+[*] Enter Target URL: https://example.com
+[*] Enter List Containing Directories: directories.txt
+[*] Discovered Directory: https://example.com/directory1
+[*] Discovered Directory: https://example.com/directory2
+[*] Discovered Directory: https://example.com/directory3
+```
