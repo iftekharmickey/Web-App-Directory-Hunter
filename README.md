@@ -16,9 +16,9 @@ To use this tool, follow these steps:
    ```bash
    pip install requests
    ```
-3. Run the script with the following command, replacing [target_url] and [list_file] with your target URL and the file containing the list of directories to check:
+3. Run the script with the following command, replacing `[target_url]` and `[list_file]` with your target URL and the file containing the list of directories to check:
    ```bash
-   python directory_enum.py
+   python directory_enum.py [target_url] [list_file]
    ```
 4. The script will iterate through the directories in the list and check if they exist on the target URL. If a directory is found, it will be displayed in the console.
 
