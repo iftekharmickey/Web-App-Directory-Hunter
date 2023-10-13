@@ -10,7 +10,7 @@ To use this tool, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/directory-enumeration-tool.git
+   git clone https://github.com/iftekharmickey/Web-App-Directory-Hunter.git
    ````
 2. Install the required dependencies. You can use `pip` to install the `requests` library:
    ```bash
